@@ -1,12 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="js/ejercicio1.js"></script>
+    <script type="text/javascript" src="js/ejercicio4.js"></script>
     <title>Document</title>
 </head>
 <body>
-    <p><a id="hipervinculo" href="https://www.google.com/"></a></p>
+    <header>
+        <!-- Ejercicio 1 -->
+        <p><a id="hipervinculo" href="https://www.google.com/"></a></p>
+    </header>
+        
+    <!-- Ejercicio 2 -->
+    <section id="Ejercicio2">
+        <!-- Formulario de Contacto -->
+        <h2>Formulario de Contacto</h2>
+        <form id="dniForm" action="#" method="post">
+            <p>
+                <label for="name">Nombre</label>
+                <input name="name" id="name" type="text" placeholder="Tu nombre">
+            </p>
+            <p>
+              <label for="dni">Dni</label>
+              <input name="dni" id="dni" type="text" placeholder="Tu DNI">
+            </p>
+            <p><input type="submit" value="Enviar Formulario"></p>
+        </form>
+    </section>
+
+    <!-- Ejercicio 3 -->
+    <section id="Ejericio3">
+        <h2>Contador</h2>
+        <label for="contador">valor:</label>
+        <input type="number" id="contador" value="0" readonly>
+        <br><br>
+        <button id="sumar">Sumar</button>
+        <button id="inicializar">Inicializar</button>
+    </section>
+
+    <!-- Ejercicio 4 -->
+    <section id="Ejercicio4">
+        <h2>Introduce un numero del 1 al 10</h2>
+        <p>
+            <label for="numero">Introduce un numero del 1 al 10:</label>
+            <input type="text" id="numero4" value="" min="1" max="10">
+            <p id="resultadoComprovacion"></p>
+        </p>
+        <p>
+            <button id="comprueba">Comprueba</button>
+        </p>
+    </section>
 </body>
 </html>
